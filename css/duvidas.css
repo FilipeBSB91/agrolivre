@@ -1,0 +1,83 @@
+.nav-top.ajuda{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    background-color: #19c463;
+    padding: 10px 0px;
+    font-size: 30px;
+    padding-right: 23%;
+    text-align: center;
+}
+
+
+
+.portfolio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+
+}
+
+.portfolio > p{
+    line-height: 1.25;
+    text-align: justify;
+    font-size: 22px;
+    text-indent: 50px;
+}
+.portfolio > img{
+    width: 60vw; 
+    max-width: 600px; 
+    min-width: 350px; 
+    height: auto; 
+    aspect-ratio: 1/1; 
+    object-fit: cover; 
+    margin: 20px 0; 
+}
+
+#btnWhatsApp {
+    position: fixed;
+    width: 64px;
+    height: 64px;
+    bottom: 128px;
+    right: 24px;
+    background: none;
+    border: 0px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+    /* Efeito de pulsar suave e automático */
+    animation: pulse 2s infinite ease-in-out;
+}
+
+#btnWhatsApp:hover {
+    transform: scale(1.25);
+    animation: none; /* Para a animação ao passar o mouse */
+}
+
+/* Animação de pulsar */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Ícone */
+#btnWhatsApp img {
+    width: 42px;
+    height: 42px;
+}

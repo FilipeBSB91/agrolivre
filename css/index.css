@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto","Roboto Condensed", sans-serif;
+}
+
+.toolbar{
+    height: 80px;
+    background: #ffff;
+    border-top: 1px solid #f1f1f1;
+    font-size: 16px;
+}
+
+.tab-link{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.toolbar-inner .link{    
+    flex:1;
+    height: 80px;  
+    line-height: 25px; 
+	/*font-weight:bold;*/
+    color: #19c463;
+}
+.toolbar-inner{
+    background: #ffff;
+    border-top: 1px solid #f1f1f1;
+}
+
+.toolbar-inner .link:not(.active){
+    color:#000000;
+	font-weight:normal;
+}
+
+.toolbar-inner > .link i{
+    font-size: 36px;
+}
+
+.top-nav{
+    width: 100%;
+    height: 60px;
+    background: #ffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-logo{
+    font-weight:600;
+    margin-left: 5%;
+}
+
+.title-logo span{
+    color: #19c463;
+}
+
+.logo{
+    width: 156px;
+    height: auto;
+    margin-left: 5%;
+}
+
+.btn-cart{
+    width: 50px;
+    height: 50px;
+    background: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 5%;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    color: #000000;
+}
+
+.btn-cart > i{
+        font-size: 32px;
+         color: #000000;
+}
+
+.btn-cart::before{
+    content: attr(data-count);
+    background: #19c463;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #ffff;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    margin-right: 5%;
+}
+
+.btn-cart[data-count="0"]::before{
+    display: none;
+}
+
+a{
+    color: #19c463;;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+form{
+    padding-top: 10px;
+    background: #ffff;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#search{
+    width: 90%;
+    height: 45px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px 20px;
+    background: #f1f1f1;
+}
+
+::placeholder{
+    color: #b3afaf;
+}
+
+.icone-busca{
+    position: absolute;
+    top: 0px;
+    right: 5%;
+    font-size: 27px;
+    padding: 13px; 
+}
+
+.page-content{
+    background: #ffff;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /**border-radius: 40px;**/
+  }
+
+.green-btn{
+    width: 90%;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: #19c463;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+/* Ajuste para nova estrutura */
+.item-card {
+    position: relative; /* Para posicionar o botão absolutamente */
+}
+
+.btn-favorito-card {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10; /* Fica acima do link */
+}
+
+/* Garantir que o link ocupe todo o card */
+.item {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+}
+
+/* Ícones de favorito - Cor verde quando ativo */
+.btn-favorito-card.active i,
+#btnFavorito.active {
+    color: #19c463 !important;
+    font-variation-settings: 'FILL' 1;
+}
+
+.btn-favorito-card i,
+#btnFavorito {
+    color: #666;
+    transition: color 0.3s ease;
+    font-variation-settings: 'FILL' 0;
+}
+
+/* Hover apenas para dispositivos com mouse */
+@media (hover: hover) and (pointer: fine) {
+    .btn-favorito-card:hover i {
+        color: #19c463;
+    }
+}
+
+/* Material Symbols base styling */
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+#btnFavorito.active {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Container da imagem - ajuste para posicionamento do botão */
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 180px;
+    border-radius: 15px 15px 0 0;
+    background: #f8f8f8;
+    overflow: hidden;
+    position: relative; /* Para posicionar o botão absolutamente */
+}
+  @media (min-width:1280px){
+    .swiper-slide img{
+        width: 1280px;
+        height: auto;
+    }
+}
+
+.block{
+    color: #000000;
+}
+
+.img-fluid{
+    max-width: 100%;
+}
+.block{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.filter-btn{
+    width: 100%;
+    height: 35px;
+    background: none;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+
+}
+
+.filter-btn.active{
+background: #19c463;;
+color: #ffff;
+border: none;
+}
+
+.row{
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.item{
+    color: #000000;
+}
+
+/* CARDS DOS PRODUTOS - ATUALIZADO */
+.item-card{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 280px; /* Aumentei para acomodar textos maiores */
+    flex: 45%;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    background: #fff;
+}
+
+/* Efeito hover para desktop */
+@media (min-width: 768px) {
+    .item-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    }
+}
+
+/* Container da imagem */
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 180px;
+    border-radius: 15px 15px 0 0;
+    background: none;
+    overflow: hidden;
+}
+
+/* Ajuste para imagens */
+.img-container img{
+    max-width: 150px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.item-card:hover .img-container img {
+    transform: scale(1.05);
+}
+
+/* Área de informações do produto */
+.name-rating{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+    gap: 8px; /* Espaço entre título e preço */
+}
+
+/* Título do produto - H2 com destaque */
+.product-title {
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px; /* Tamanho de H2 */
+    text-align: center;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Preço - H3 como subtítulo */
+.product-price {
+    font-size: 18px; /* Tamanho de H3 */
+    font-weight: 700;
+    color: #19c463;;
+    text-align: center;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ajuste responsivo para telas menores */
+@media (max-width: 480px) {
+    .item-card {
+        height: 260px;
+    }
+    
+    .name-rating {
+        padding: 12px 10px;
+        gap: 6px;
+    }
+    
+    .product-title {
+        font-size: 16px;
+    }
+    
+    .product-price {
+        font-size: 18px;
+    }
+}
+
+/* Para tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .product-title {
+        font-size: 17px;
+    }
+    
+    .product-price {
+        font-size: 19px;
+    }
+}
+
+.color-gray{
+color: gray;
+}
+
+.mdi-star{
+    color: gold;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.gelo{
+    background: #f1f1f1 !important;
+}
+
+.nav-top cart > h4{
+    margin-right: 5%;
+}
+
+@media (min-width:992px){
+    .item-card{
+        flex: 30%;
+    }
+}
+
+@media (min-width:1200px){
+    .item-card{
+        flex: 20%;
+    }
+}
+
+/* Loading states melhorados */
+.skeleton-effect-wave {
+    animation: skeleton-wave 1.5s ease-in-out infinite;
+}
+
+@keyframes skeleton-wave {
+    0% { opacity: 0.6; }
+    50% { opacity: 0.8; }
+    100% { opacity: 0.6; }
+}

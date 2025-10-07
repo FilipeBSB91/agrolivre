@@ -1,0 +1,201 @@
+:root{
+    --branco: #ffff;
+    --gelo: #f1f1f1;
+    --verde: #19c463;
+    --preto: #2a2a2a;
+}
+
+.prod-detail{
+    background: var(--branco);
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.prod-detail img{
+    max-width: 400px;
+}
+
+.buttons-top{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    justify-content: space-between;
+}
+
+.buttons-top a{
+    width: 40px;
+    height: 40px;
+    background-color: var(--branco);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--preto);
+    border: 1px solid var(--gelo);
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.buttons-top a:first-child{
+margin-left: 20px;
+margin-right: auto;
+}
+
+.buttons-top a:last-child{
+margin-right: 20px;
+margin-left: 5px;
+}
+
+/* REMOVER BORDA VERDE DO BOTÃO FAVORITO NO HOVER */
+.buttons-top a.btn-favorito:hover {
+    border-color: var(--gelo) !important; /* Mantém a borda cinza */
+}
+
+.buttons-top a.btn-favorito:hover i {
+    color: var(--verde) !important; /* Mantém o ícone verde no hover */
+}
+
+/* Manter o hover verde para os outros botões */
+.buttons-top a:not(.btn-favorito):hover {
+    border-color: var(--verde) !important;
+}
+
+.buttons-top a:not(.btn-favorito):hover i {
+    color: var(--verde) !important;
+}
+
+.prod-content{
+    margin-top: -50px;
+    background: var(--branco);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    position: relative;
+    z-index:99;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.line b{
+    font-size: 20px;
+}
+.promo-btn{
+    width: 30%;
+    background: red;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    color: var(--branco);
+}
+
+.btn-rates{
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background: none;
+    margin-right: 5px;
+    width: 80px;
+    font-size: 16px;
+
+}
+
+
+
+.ri-thumb-up-fill{
+    color: #19c463;
+}
+
+.reviews{
+    color: gray;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td{
+    padding: 1px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+th{
+    background-color: #ebebeb;
+    padding: 5px 0px;
+}
+
+.flex-40{
+    flex: 40%;
+}
+
+.flex-60{
+    flex: 60%;
+}
+
+.princing{
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.add-cart{
+    width: 90%;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--verde);
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 800;
+
+}
+
+/* SOLUÇÃO FORÇADA - Estilo no ícone */
+#btnFavorito.active {
+    color: #19c463 !important;
+    font-variation-settings: 'FILL' 1 !important;
+}
+
+#btnFavorito {
+    color: #666 !important;
+    font-variation-settings: 'FILL' 0 !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Hover apenas para dispositivos com mouse - CORREÇÃO */
+@media (hover: hover) and (pointer: fine) {
+    .btn-favorito:hover #btnFavorito {
+        color: var(--verde) !important;
+    }
+    
+    .buttons-top a:not(.btn-favorito):hover i {
+        color: var(--verde) !important;
+    }
+    
+    .buttons-top a:not(.btn-favorito):hover {
+        border-color: var(--verde) !important;
+    }
+}
+
+/* Garantir que o Material Symbols funcione */
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+#btnFavorito.active {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}

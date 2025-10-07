@@ -1,0 +1,630 @@
+[
+    {
+        "id": 1,
+        "imagem": "img/produtos/000001.jpg",
+        "nome": "Abacate",
+        "categoria": "Frutas",
+        "rating": 4.0,
+        "likes": "91%",
+        "reviews": 50,
+        "descricao": "Abacate da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 5.00
+    },
+    {
+        "id": 2,
+        "imagem": "img/produtos/000002.jpg ",
+        "nome": "Abacaxi",
+        "categoria": "Frutas",
+        "rating": 3.5,
+        "likes": "91%",
+        "reviews": 10,
+        "descricao": "Abacaxi da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por unidade - Kg"
+            }
+        ],
+        "preco": 7.00
+    },
+    {
+        "id": 3,
+        "imagem": "img/produtos/000003.jpg",
+        "nome": "Abóbora japonesa",
+        "categoria": "Legumes",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Abóbora japonesa da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 7.00
+    },
+    {
+        "id": 4,
+        "imagem": "img/produtos/000004.jpg  ",
+        "nome": "Abobrinha",
+        "categoria": "Legumes",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Abobrinha da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 3.00
+    },
+    {
+        "id": 5,
+        "imagem": "img/produtos/000005.jpg ",
+        "nome": "Acelga",
+        "categoria": "Verduras",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Acelga da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 3.00
+    },
+    {
+        "id": 6,
+        "imagem": "img/produtos/000006.jpg ",
+        "nome": "Acerola",
+        "categoria": "Frutas",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Acerola da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 5.00,
+        "preco_promocional": 0
+    },
+    {
+        "id": 7,
+        "imagem": "img/produtos/000007.jpg",
+        "nome": "Agrião",
+        "categoria": "Verduras",
+        "rating": 4.0,
+        "likes": "91%",
+        "reviews": 50,
+        "descricao": "Agrião da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 und",
+                "detalhe": "Venda por unidade - und"
+            }
+        ],
+        "preco": 1.00
+    },
+    {
+        "id": 8,
+        "imagem": "img/produtos/000008.jpg ",
+        "nome": "Alcachofra",
+        "categoria": "Legumes",
+        "rating": 3.5,
+        "likes": "91%",
+        "reviews": 10,
+        "descricao": "Alcachofra da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 und",
+                "detalhe": "Venda por unidade - und"
+            }
+        ],
+        "preco": 25.00
+    },
+    {
+        "id": 9,
+        "imagem": "img/produtos/000009.jpg",
+        "nome": "Alho roxo",
+        "categoria": "Temperos",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Alho roxo da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 14.00
+    },
+    {
+        "id": 10,
+        "imagem": "img/produtos/000010.jpg  ",
+        "nome": "Amendoim",
+        "categoria": "Grãos",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Amendoim da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 10.00
+    },
+    {
+        "id": 11,
+        "imagem": "img/produtos/000011.jpg ",
+        "nome": "Banana prata",
+        "categoria": "Frutas",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Banana prata da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 7.00
+    },
+    {
+        "id": 12,
+        "imagem": "img/produtos/000012.jpg ",
+        "nome": "Berinjela",
+        "categoria": "Legumes",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Berinjela da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 5.00,
+        "preco_promocional": 0
+    },
+    {
+        "id": 13,
+        "imagem": "img/produtos/000013.jpg",
+        "nome": "Batata doce",
+        "categoria": "Legumes",
+        "rating": 4.0,
+        "likes": "91%",
+        "reviews": 50,
+        "descricao": "Batata doce da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 5.00
+    },
+    {
+        "id": 14,
+        "imagem": "img/produtos/000014.jpg ",
+        "nome": "Beterraba",
+        "categoria": "Legumes",
+        "rating": 3.5,
+        "likes": "91%",
+        "reviews": 10,
+        "descricao": "Beterraba da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 7.00
+    },
+    {
+        "id": 15,
+        "imagem": "img/produtos/000015.jpg",
+        "nome": "Brócolis",
+        "categoria": "Verduras",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Brócolis da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por unidade - und"
+            }
+        ],
+        "preco": 7.00
+    },
+    {
+        "id": 16,
+        "imagem": "img/produtos/000016.jpg  ",
+        "nome": "Cajú",
+        "categoria": "Frutas",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Cajú da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 12.00
+    },
+    {
+        "id": 17,
+        "imagem": "img/produtos/000017.jpg ",
+        "nome": "Carambola",
+        "categoria": "Frutas",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Carambola da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 7.00
+    },
+    {
+        "id": 18,
+        "imagem": "img/produtos/000018.jpg ",
+        "nome": "Castanha de cajú",
+        "categoria": "Castanhas",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Castanha de cajú da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 15.00,
+        "preco_promocional": 0
+    },
+    {
+        "id": 19,
+        "imagem": "img/produtos/000019.jpg",
+        "nome": "Cebola",
+        "categoria": "Temperos",
+        "rating": 4.0,
+        "likes": "91%",
+        "reviews": 50,
+        "descricao": "Cebola da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 5.00
+    },
+    {
+        "id": 20,
+        "imagem": "img/produtos/000020.jpg ",
+        "nome": "Cebola roxa",
+        "categoria": "Temperos",
+        "rating": 3.5,
+        "likes": "91%",
+        "reviews": 10,
+        "descricao": "Cebola roxa da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 7.00
+    },
+    {
+        "id": 21,
+        "imagem": "img/produtos/000021.jpg",
+        "nome": "Cebolinha",
+        "categoria": "Verduras",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Cebolinha da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 und",
+                "detalhe": "Venda por unidade - und"
+            }
+        ],
+        "preco": 3.00
+    },
+    {
+        "id": 22,
+        "imagem": "img/produtos/000022.jpg  ",
+        "nome": "Cenoura",
+        "categoria": "Legumes",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Cenoura da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 4.00
+    },
+    {
+        "id": 23,
+        "imagem": "img/produtos/000023.jpg ",
+        "nome": "Chuchu",
+        "categoria": "Legumes",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Chuchu da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 3.00
+    },
+    {
+        "id": 24,
+        "imagem": "img/produtos/000024.jpg ",
+        "nome": "Coco seco",
+        "categoria": "Frutas",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Coco seco da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 und",
+                "detalhe": "Venda por unidade - und"
+            }
+        ],
+        "preco": 5.00,
+        "preco_promocional": 0
+    },
+    {
+        "id": 25,
+        "imagem": "img/produtos/000025.jpg ",
+        "nome": "Coco verde",
+        "categoria": "Frutas",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Coco verde da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 und",
+                "detalhe": "Venda por unidade - und"
+            }
+        ],
+        "preco": 5.00,
+        "preco_promocional": 0
+    },
+    {
+        "id": 26,
+        "imagem": "img/produtos/000026.jpg ",
+        "nome": "Coentro",
+        "categoria": "Verduras",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Coentro da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 und",
+                "detalhe": "Venda por unidade - und"
+            }
+        ],
+        "preco": 2.00,
+        "preco_promocional": 0
+    },
+    {
+        "id": 27,
+        "imagem": "img/produtos/000027.jpg ",
+        "nome": "Cogumelo",
+        "categoria": "Legumes",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Cogumelo da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 und",
+                "detalhe": "Venda por unidade - und"
+            }
+        ],
+        "preco": 5.00,
+        "preco_promocional": 0
+    },
+    {
+        "id": 28,
+        "imagem": "img/produtos/000028.jpg ",
+        "nome": "Couve manteiga",
+        "categoria": "Verduras",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Couve manteiga da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 und",
+                "detalhe": "Venda por unidade - und"
+            }
+        ],
+        "preco": 3.00,
+        "preco_promocional": 0
+    },
+    {
+        "id": 29,
+        "imagem": "img/produtos/000029.jpg ",
+        "nome": "Couve-flor",
+        "categoria": "Verduras",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Couve-flor da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 und",
+                "detalhe": "Venda por unidade - und"
+            }
+        ],
+        "preco": 5.00,
+        "preco_promocional": 0
+    },
+    {
+        "id": 30,
+        "imagem": "img/produtos/000030.jpg ",
+        "nome": "Damasco seco",
+        "categoria": "Frutas",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Damasco seco da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 25.00,
+        "preco_promocional": 0
+    },
+    {
+        "id": 31,
+        "imagem": "img/produtos/000031.jpg ",
+        "nome": "Feijão verde",
+        "categoria": "Grãos",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Feijão verde da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 7.00,
+        "preco_promocional": 0
+    },
+    {
+        "id": 32,
+        "imagem": "img/produtos/000032.jpg ",
+        "nome": "Gengibre",
+        "categoria": "Temperos",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Gengibre da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 10.00,
+        "preco_promocional": 0
+    },
+    {
+        "id": 33,
+        "imagem": "img/produtos/000033.jpg ",
+        "nome": "Goiaba",
+        "categoria": "Frutas",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Goiaba da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 5.00,
+        "preco_promocional": 0
+    },
+    {
+        "id": 34,
+        "imagem": "img/produtos/000034.jpg ",
+        "nome": "Jaca mole",
+        "categoria": "Frutas",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Jaca mole da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 und",
+                "detalhe": "Venda por unidade - und"
+            }
+        ],
+        "preco": 17.00,
+        "preco_promocional": 0
+    },
+    {
+        "id": 35,
+        "imagem": "img/produtos/000035.jpg ",
+        "nome": "Laranja",
+        "categoria": "Frutas",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Laranja da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 5.00,
+        "preco_promocional": 0
+    },
+    {
+        "id": 36,
+        "imagem": "img/produtos/000036.jpg ",
+        "nome": "Kiwi",
+        "categoria": "Frutas",
+        "rating": 4.5,
+        "likes": "91%",
+        "reviews": 25,
+        "descricao": "Kiwi verde da melhor qualidade, direto do produtor rural para sua mesa!",
+        "detalhes": [
+            {
+                "referencia": "1 Kg",
+                "detalhe": "Venda por quilograma - Kg"
+            }
+        ],
+        "preco": 7.00,
+        "preco_promocional": 0
+    }
+]
