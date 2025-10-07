@@ -108,7 +108,12 @@ margin-left: 5px;
 
 }
 
-
+#nome-descricao{
+    font-size: 26px;
+}
+#texto-descricao{
+    font-size: 18px;
+}
 
 .ri-thumb-up-fill{
     color: #19c463;
