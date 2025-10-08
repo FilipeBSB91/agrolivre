@@ -2,13 +2,14 @@
     --branco: #ffff;
     --gelo: #f1f1f1;
     --verde: #19c463;
+    --oliva: #258832;
     --preto: #2a2a2a;
 }
 
 .prod-detail{
     background: var(--branco);
     width: 100%;
-    height: 450px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +17,7 @@
 }
 
 .prod-detail img{
-    max-width: 400px;
+    max-width: 300px;
 }
 
 .buttons-top{
@@ -85,19 +86,8 @@ margin-left: 5px;
     flex-flow: row wrap;
 }
 
-.line b{
-    font-size: 20px;
-}
-.promo-btn{
-    width: 30%;
-    background: red;
-    border-radius: 8px;
-    border: none;
-    padding: 10px;
-    color: var(--branco);
-}
 
-.btn-rates{
+/*.btn-rates{
     border: 1px solid gray;
     border-radius: 20px;
     padding: 5px 10px;
@@ -106,27 +96,30 @@ margin-left: 5px;
     width: 80px;
     font-size: 16px;
 
-}
-
+}*/
 #nome-descricao{
     font-size: 26px;
 }
+
 #texto-descricao{
     font-size: 18px;
+    text-align: center;
 }
 
 .ri-thumb-up-fill{
     color: #19c463;
 }
 
-.reviews{
+/*.reviews{
     color: gray;
-}
+}*/
 
 table{
-    width: 100%;
+    width: 80%;
     border-collapse: collapse;
     margin-bottom: 20px;
+    margin-left: 10%;
+    
 }
 
 th,
@@ -139,7 +132,7 @@ td{
 }
 
 th{
-    background-color: #ebebeb;
+    background-color: var(--gelo);
     padding: 5px 0px;
 }
 
@@ -171,7 +164,7 @@ th{
 
 /* SOLUÇÃO FORÇADA - Estilo no ícone */
 #btnFavorito.active {
-    color: #19c463 !important;
+    color: var(--verde) !important;
     font-variation-settings: 'FILL' 1 !important;
 }
 

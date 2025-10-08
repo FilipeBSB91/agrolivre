@@ -1,3 +1,11 @@
+:root{
+    --branco: #ffff;
+    --gelo: #f1f1f1;
+    --verde: #19c463;
+    --oliva: #258832;
+    --preto: #2a2a2a;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
@@ -6,8 +14,8 @@ body {
 
 .toolbar{
     height: 80px;
-    background: #ffff;
-    border-top: 1px solid #f1f1f1;
+    background: var(--branco);
+    border-top: 1px solid var(--gelo);
     font-size: 16px;
 }
 
@@ -22,15 +30,15 @@ body {
     height: 80px;  
     line-height: 25px; 
 	/*font-weight:bold;*/
-    color: #19c463;
+    color: var(--verde);
 }
 .toolbar-inner{
-    background: #ffff;
-    border-top: 1px solid #f1f1f1;
+    background: var(--branco);
+    border-top: 1px solid var(--gelo);
 }
 
 .toolbar-inner .link:not(.active){
-    color:#000000;
+    color:var(--preto);
 	font-weight:normal;
 }
 
@@ -41,7 +49,7 @@ body {
 .top-nav{
     width: 100%;
     height: 60px;
-    background: #ffff;
+    background: var(--branco);
     display: flex;
     justify-content: space-between;
 }
@@ -52,7 +60,7 @@ body {
 }
 
 .title-logo span{
-    color: #19c463;
+    color: var(--verde);
 }
 
 .logo{
@@ -64,25 +72,25 @@ body {
 .btn-cart{
     width: 50px;
     height: 50px;
-    background: #ffff;
+    background: var(--branco);
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
     margin-right: 5%;
     border-radius: 50%;
-    border: 1px solid #f1f1f1;
+    border: 1px solid var(--gelo);
     color: #000000;
 }
 
 .btn-cart > i{
         font-size: 32px;
-         color: #000000;
+         color: var(--preto);
 }
 
 .btn-cart::before{
     content: attr(data-count);
-    background: #19c463;
+    background: var(--verde);
     width: 17px;
     height: 17px;
     border-radius: 50%;
@@ -90,7 +98,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 12px;
-    color: #ffff;
+    color: var(--branco);
     position: absolute;
     top: 5px;
     right: 0px;
@@ -102,14 +110,14 @@ body {
 }
 
 a{
-    color: #19c463;;
+    color: var(--verde);
     font-weight: 600;
     text-decoration: none;
 }
 
 form{
     padding-top: 10px;
-    background: #ffff;
+    background: var(--branco);
     padding-bottom: 20px;
     position: relative;
 }
@@ -136,7 +144,7 @@ form{
 }
 
 .page-content{
-    background: #ffff;
+    background: var(--branco);
 }
 
 .swiper {
@@ -147,7 +155,7 @@ form{
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #ffff;
+    background: var(--branco);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,8 +174,8 @@ form{
     height: 50px;
     border-radius: 15px;
     border: none;
-    background-color: #19c463;
-    color: #ffff;
+    background-color: var(--verde);
+    color: var(--branco);
     cursor: pointer;
     font-size: 18px;
     font-weight: 800;
@@ -207,7 +215,7 @@ form{
 /* Ícones de favorito - Cor verde quando ativo */
 .btn-favorito-card.active i,
 #btnFavorito.active {
-    color: #19c463 !important;
+    color: var(--verde) !important;
     font-variation-settings: 'FILL' 1;
 }
 
@@ -221,7 +229,7 @@ form{
 /* Hover apenas para dispositivos com mouse */
 @media (hover: hover) and (pointer: fine) {
     .btn-favorito-card:hover i {
-        color: #19c463;
+        color: var(--verde);
     }
 }
 
@@ -254,7 +262,7 @@ form{
 }
 
 .block{
-    color: #000000;
+    color: var(--preto);
 }
 
 .img-fluid{
@@ -280,8 +288,8 @@ form{
 }
 
 .filter-btn.active{
-background: #19c463;;
-color: #ffff;
+background: var(--verde);
+color: var(--branco);
 border: none;
 }
 
@@ -291,7 +299,7 @@ border: none;
 }
 
 .item{
-    color: #000000;
+    color: var(--preto);
 }
 
 /* CARDS DOS PRODUTOS - ATUALIZADO */
@@ -356,7 +364,7 @@ border: none;
 
 /* Título do produto - H2 com destaque */
 .product-title {
-    color: #000000;
+    color: var(--preto);
     font-weight: 700;
     font-size: 20px; /* Tamanho de H2 */
     text-align: center;
@@ -369,7 +377,7 @@ border: none;
 .product-price {
     font-size: 18px; /* Tamanho de H3 */
     font-weight: 700;
-    color: #19c463;;
+    color: var(--verde);
     text-align: center;
     white-space: nowrap;
     margin: 0;
@@ -420,7 +428,7 @@ color: gray;
 }
 
 .gelo{
-    background: #f1f1f1 !important;
+    background: var(--gelo) !important;
 }
 
 .nav-top cart > h4{

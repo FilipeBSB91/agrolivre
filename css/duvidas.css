@@ -1,9 +1,17 @@
+:root{
+    --branco: #ffff;
+    --gelo: #f1f1f1;
+    --verde: #19c463;
+    --oliva: #258832;
+    --preto: #2a2a2a;
+}
+
 .nav-top.ajuda{
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: left;
-    background-color: #19c463;
+    background-color: var(--verde);
     padding: 10px 0px;
     font-size: 30px;
     padding-right: 23%;

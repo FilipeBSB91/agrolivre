@@ -2,6 +2,7 @@
     --branco: #ffff;
     --gelo: #f1f1f1;
     --verde: #19c463;
+    --oliva: #258832;
     --preto: #2a2a2a;
 }
 
@@ -198,11 +199,11 @@
 
 /* Estilo para ícones de favorito na página de favoritos */
 .fav-item .material-symbols-outlined {
-    color: #19c463 !important;
+    color: var(--verde) !important;
     font-variation-settings: 'FILL' 1;
     transition: all 0.3s ease;
 }
 
 .fav-item:hover .material-symbols-outlined {
-    color: #19c463 !important; /* Vermelho no hover para indicar remoção */
+    color: var(--verde) !important; /* Vermelho no hover para indicar remoção */
 }
